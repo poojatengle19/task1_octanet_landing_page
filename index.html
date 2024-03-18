@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Go Trip</title>
+</head>
+<body>
+    <body>
+        
+        <!--===========Nav Bar=================-->
+        <section class="nav-bar">
+            <div class="logo">Go Trip</div>
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">tours</a></li>
+                <li><a href="#">package</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+          </div>
+        </section>
+        <!--===============Banner================-->
+        <section class="banner">
+            <div class="banner-text-item">
+                <div class="banner-heading">
+                    <h1>Find your Next tour!</h1>
+                </div>
+                <form class="form">
+                    <input type="text" list="mylist" placeholder="Where would you like to go?">
+                    <datalist id="mylist">
+                        <option>Paris</option>
+                        <option>Canada</option>
+                        <option>London</option>
+                        <option>France</option>
+                        <option>Germany</option>
+                        <option>Switzerland</option>
+                        <option>Seoul</option>
+                    </datalist>
+                    <input type="date" class="date">
+                    <a href="#" class="book">book</a>
+                </form>
+            </div>
+        </section>
+        <div class="container">
+            <h1>Tours and Travels To-Do List</h1>
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <button onclick="addTask()">Add Task</button>
+            <ul id="taskList">
+              <!-- Tasks will be added dynamically here -->
+            </ul>
+          </div>
+          <div id="myDIV" class="header">
+            <h2>To Do List</h2>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          
+          <ul id="myUL">
+            <li>Pack luggage</li>
+            <li>Book accommodation</li>
+            <li>Plan itinerary</li>
+            <li>Purchase tickets</li>
+            <li>Arrange transportation</li>
+            <li>Research attractions</li>
+            <li>Create packing checklist</li>
+            <li>Notify bank of travel plans</li>
+            <li>Set up out-of-office email reply</li>
+            <li>Get travel insurance</li>
+          </ul>
+          
+            </div>
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+          <script src="script.js"></script>
+          
+    </body>
+</html>
+</body>
+</html>
